@@ -81,7 +81,7 @@ def main():
 
 
         n = 1
-        day = start_day - 1
+        day = start_day
         for col in ws.iter_cols(2, days_in_month+1):
             # Числа
             print(f'{col[0].column_letter}{row}')
